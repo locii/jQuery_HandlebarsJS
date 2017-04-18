@@ -18,7 +18,8 @@ $jQueryElement.loadFromTemplate({
 });
 ```
 ### RENDER METHOD
-#### Choose between JQueryElement.html() orJqueryElement.append() by default is 'append'
+#### Choose between JQueryElement.html(), or JqueryElement.append(), or JqueryElement.prepend() by default is 'append'
+
 ```javascript
 $jQueryElement.loadFromTemplate({
   template : "templateName",
